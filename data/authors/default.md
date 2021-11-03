@@ -1,16 +1,15 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
+name: Madeiras Santos EIRELI
+avatar: /static/images/logo_google2.png
+occupation: Belo Horizonte / Minas Gerais
+email: comercial@madeirassantos.com.br
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
 github: https://github.com
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+A Madeiras Santos é uma empresa criada para reunir todo o Know-how, adiquirido por seus fundadores em mais de 30 anos de atuação no setor madeireiro em conjuto com a experiência em negociações e bom atendimento aos clientes.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Com foco em estreitar as relações comerciais com os clientes por meio do bom atendimento, confiança e qualidade dos materiais, visamos fazer parcerias duradouras, sempre buscando oferecer as melhores condições do mercado.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Não perca tempo! Venha realizar seu projeto com conosco.

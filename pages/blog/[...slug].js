@@ -56,7 +56,7 @@ export default function Blog({ post, authorDetails, prev, next }) {
       ) : (
         <div className="mt-24 text-center">
           <PageTitle>
-            Under Construction{' '}
+            Em construção{' '}
             <span role="img" aria-label="roadwork sign">
               🚧
             </span>

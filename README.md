@@ -56,7 +56,7 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 - Support for nested routing of blog posts
 - Newsletter component with support for mailchimp, buttondown and convertkit
 - Supports [giscus](https://github.com/laymonage/giscus), [utterances](https://github.com/utterance/utterances) or disqus
-- Projects page
+- Products page
 - SEO friendly with RSS feed, sitemaps and more!
 
 ## Sample posts
@@ -73,7 +73,7 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 1. JS (official support) - `npx degit https://github.com/timlrx/tailwind-nextjs-starter-blog.git` or TS (community support) - `npx degit timlrx/tailwind-nextjs-starter-blog#typescript`
 2. Personalize `siteMetadata.js` (site related information)
 3. Personalize `authors/default.md` (main author)
-4. Modify `projectsData.js`
+4. Modify `productsData.js`
 5. Modify `headerNavLinks.js` to customize navigation links
 6. Add blog posts
 7. Deploy on Vercel
@@ -98,7 +98,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 `data/authors/default.md` - default author information (required). Additional authors can be added as files in `data/authors`.
 
-`data/projectsData.js` - data used to generate styled card in projects page.
+`data/productsData.js` - data used to generate styled card in products page.
 
 `data/headerNavLinks.js` - navigation links.
 
