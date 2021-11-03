@@ -20,16 +20,19 @@ export default function Footer() {
           <div>{` • `}</div>
           <Link href="/">{siteMetadata.title}</Link>
         </div>
-        <div className="mb-3 text-sm text-gray-500 dark:text-gray-400">
-          <span>Avenida Portugal, 901A - Santa Amélia, Belo Horizonte / Minas Gerais CEP:31550-000</span>
+        <div className="mb-3 text-center text-sm text-gray-500 dark:text-gray-400">
+          <span>
+            Avenida Portugal, 901A - Santa Amélia, Belo Horizonte / Minas Gerais CEP:31550-000
+          </span>
         </div>
         <div className="mb-1 text-sm text-gray-500 dark:text-gray-400">
           <Link href="https://auderemg.com.br">
-            <Image 
+            <Image
               className="h-50 w-50 object-cover sm:h-4 md:h-4 lg:w-100pt lg:h-100pt"
-              src='/static/images/audere23.png'
-              width={5}
-              height={5}
+              src="/static/images/audere23.png"
+              alt="Logo da desenvolvedora"
+              width={100}
+              height={20}
             />
           </Link>
         </div>

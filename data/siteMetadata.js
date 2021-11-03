@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Madeiras Santos EIRELI',
   author: 'Audere',
   headerTitle: 'Madeiras Santos',
-  description: 'Madeiras Santos, a segurança do Know How!',
+  description: 'Madeiras Santos. A segurança do Know How!',
   language: 'pt-br',
   siteUrl: 'https://madeirassantos.com.br',
   siteRepo: '#',
@@ -24,7 +24,7 @@ const siteMetadata = {
     // supports plausible, simpleAnalytics or googleAnalytics
     plausibleDataDomain: '', // e.g. mdsantos.vercel.app
     simpleAnalytics: false, // true or false
-    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'G-68R4LB4DQ6', // e.g. UA-000000-2 or G-XXXXXXX
   },
   newsletter: {
     // supports mailchimp, buttondown, convertkit
@@ -48,7 +48,7 @@ const siteMetadata = {
       metadata: '0',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
-      theme: 'light',
+      theme: 'dark',
       // theme when dark mode
       darkTheme: 'transparent_dark',
       // If the theme option above is set to 'custom`

@@ -1,4 +1,5 @@
 import SocialIcon from '@/components/social-icons'
+import siteMetadata from '@/data/siteMetadata'
 import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 
@@ -27,10 +28,10 @@ export default function AuthorLayout({ children, frontMatter }) {
             <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
             <div className="text-gray-500 dark:text-gray-400">{company}</div>
             <div className="flex pt-6 space-x-3">
-              <SocialIcon kind="mail" href={`mailto:${email}`} />
-              <SocialIcon kind="github" href={github} />
-              <SocialIcon kind="linkedin" href={linkedin} />
-              <SocialIcon kind="twitter" href={twitter} />
+              <SocialIcon kind="mail" href={`mailto:${email}`} size="6" />
+              <SocialIcon kind="whatsapp" href={siteMetadata.whatsapp} size="5" />
+              <SocialIcon kind="instagram" href={siteMetadata.instgram} size="5" />
+              <SocialIcon kind="google" href={siteMetadata.google} size="5" />
             </div>
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">{children}</div>

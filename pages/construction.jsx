@@ -8,15 +8,15 @@ export default function FourZeroFour() {
           className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 
         md:text-8xl md:leading-14 md:border-r-2 md:px-6"
         >
-          404
+          Conteúdo em construção!
         </h1>
       </div>
       <div className="max-w-md">
         <p className="pb-4 mb-4 text-xl font-bold leading-normal md:text-2xl">
-          Desculpe, página não encontrada.
+          Em breve, esse conteúdo estará disponível para consulta.
         </p>
         <p className="pb-4 mb-8">
-          Não se preocupe, você vai encontrar outros conteúdos na página inicial.
+          Por hora, não se preocupe, você irá encontrar outros conteúdos na página inicial.
         </p>
         <Link href="/">
           <button
