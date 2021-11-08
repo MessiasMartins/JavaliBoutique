@@ -1,6 +1,6 @@
 {
   "name": "MDSantos",
-  "version": "1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "next-remote-watch ./data",
@@ -10,8 +10,7 @@
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky install",
-    "export":"npm run build && next export -o _static"
-
+    "export": "npm run build && next export -o _static"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
