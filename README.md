@@ -1,10 +1,12 @@
 ![Audere](/public/static/images/audere23.png)
 
-# Tailwind + Nextjs Blog
+# Madeiras Santos Home Page + Blog
+
+Projeto desenvolvido para a Madeiras Santos EIRELI, unindo Home Page + Possiblilidade de Postagens ao estilo Blog.
+
+## Tailwind + Nextjs Blog
 
 Facing issues? Check the [FAQ page](https://github.com/timlrx/tailwind-nextjs-starter-blog/wiki) and do a search on past issues. Feel free to open a new issue if none has been posted previously.
-
-Feature request? Check the past discussions to see if it has been brough up previously. Otherwise, feel free to start a new discussion thread. All ideas are welcomed!
 
 ## Exemplos
 
