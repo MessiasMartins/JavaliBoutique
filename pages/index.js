@@ -34,7 +34,7 @@ export default function Home({ posts }) {
             >
               <polygon points="50,0 100,0 50,100 0,100" />
             </svg>
-            <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+            <main className="mx-auto max-w-7xl px-4 sm:mt-0 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-left">
                 <h1 className="text-3xl pt-10 font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
                   <span className="block xl:inline">Materiais de qualidade para o seu</span>{' '}
@@ -131,7 +131,7 @@ export default function Home({ posts }) {
           <p className="pt-6 pb-8 text-lg text-gray-500 dark:text-gray-400">
             A seguir alguns dos tipos de produtos e materiais com os quais trabalhamos
           </p>
-          <div className="text-center text-2xl font-extrabold pt-6 pb-4 leading-7 grid grid-cols-3 gap-4 center">
+          <div className="text-center text-2xl font-extrabold pt-6 pb-4 leading-7 grid grid-cols-3 gap-4 center sm: text-xl">
             <div>• Madeiras em Geral</div>
             <div>• Madeirites / Chapas / Compensados</div>
             <div>• Paraju</div>
