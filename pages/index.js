@@ -174,7 +174,7 @@ export default function Home({ posts }) {
               E-mail: comercial@madeirassantos.com.br<br></br>
             </p>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-              <div className="mt-3 sm:mt-0 sm:ml-3">
+              <div className="mt-0 sm:mt-0 sm:ml-3">
                 <a
                   href={siteMetadata.whatsapp}
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent 
