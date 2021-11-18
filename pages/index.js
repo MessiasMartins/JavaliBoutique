@@ -130,7 +130,7 @@ export default function Home({ posts }) {
           <p className="pt-6 pb-8 text-lg text-gray-500 dark:text-gray-400">
             A seguir alguns dos tipos de produtos e materiais com os quais trabalhamos
           </p>
-          <div className="text-center text-2xl font-extrabold pt-6 pb-4 leading-7 grid grid-cols-3 gap-4 center sm: text-xl">
+          <div className="text-center text-2xl font-extrabold pt-6 pb-4 leading-7 grid grid-cols-3 gap-4 center sm: text-sm">
             <div>• Madeiras em Geral</div>
             <div>• Madeirites / Chapas / Compensados</div>
             <div>• Paraju</div>
@@ -198,7 +198,7 @@ export default function Home({ posts }) {
                   href="https://www.google.com/maps/place/Madeiras+Santos+EIRELI/@-19.8436181,-43.9877025,15z/data=!4m5!3m4!1s0x0:0xeae93a7279947fed!8m2!3d-19.8436181!4d-43.9877025"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent 
                     text-base font-medium rounded-md text-gray-900 bg-indigo-100 hover:bg-indigo-200 md:py-4 
-                    md:text-lg md:px-5"
+                    md:text-lg md:px-5 sm: text-center"
                 >
                   Como Chegar?
                 </a>
