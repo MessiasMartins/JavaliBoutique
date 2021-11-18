@@ -4,11 +4,14 @@ import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 
 export default function AuthorLayout({ children, frontMatter }) {
-  const { name, avatar, occupation, company, email, twitter, linkedin, github } = frontMatter
+  const { name, avatar, occupation, company, email } = frontMatter
 
   return (
     <>
-      <PageSEO title={`Sobre - ${name}`} description={`Sobre nós - ${name}`} />
+      <PageSEO
+        title={`Sobre - ${siteMetadata.otherTitle}`}
+        description={siteMetadata.description}
+      />
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
