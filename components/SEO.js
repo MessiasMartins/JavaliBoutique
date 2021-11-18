@@ -9,6 +9,7 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage }) => {
       <title>{title}</title>
       <meta name="robots" content="follow, index" />
       <meta name="description" content={description} />
+      <meta name="author" content="Audere - Agência e Desenvolvimento de Produtos para a Web." />
       <meta property="og:url" content={`${siteMetadata.siteUrl}${router.asPath}`} />
       <meta property="og:type" content={ogType} />
       <meta property="og:site_name" content={siteMetadata.title} />
