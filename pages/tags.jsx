@@ -17,7 +17,7 @@ export default function Tags({ tags }) {
     <>
       <PageSEO
         title={`Tags - ${siteMetadata.author}`}
-        description="Palavras que representam a Empresa"
+        description="Palavras que representam a Empresa, os Produtos e os Serviços prestados."
       />
       <div className="flex flex-col items-start justify-start divide-y divide-gray-200 dark:divide-gray-700 md:justify-center md:items-center md:divide-y-0 md:flex-row md:space-x-6 md:mt-24">
         <div className="pt-6 pb-8 space-x-2 md:space-y-5">
