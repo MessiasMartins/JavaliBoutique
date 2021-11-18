@@ -1,9 +1,10 @@
 const siteMetadata = {
-  title: 'Madeiras Santos EIRELI',
-  author: 'Audere',
-  headerTitle: 'Madeiras Santos',
-  description: 'Madeiras Santos. A segurança do Know How!',
-  language: 'pt-br',
+  title: 'Madeiras Santos EIRELI. Qualidade, Preço Competitivo e Entrega Ágil.',
+  author: 'Audere - Agência e Desenvolvimento de Produtos para Web.',
+  headerTitle: 'Madeiras Santos EIRELI',
+  description:
+    'Madeireira localizada em Belo Horizonte MG. Madeiras de Qualidade, Menor Preço, Entrega Ágil e mais de 30 anos de Experiencia no mercado.',
+  language: 'pt-BR',
   siteUrl: 'https://madeirassantos.com.br',
   siteRepo: '#',
   siteLogo: '/static/images/logo_google2.png',
@@ -17,8 +18,10 @@ const siteMetadata = {
   //youtube: 'https://youtube.com',
   //linkedin: 'https://www.linkedin.com',
   instgram: 'https://www.instagram.com/madeirassantos/',
-  whatsapp: 'https://api.whatsapp.com/send?phone=5531992482390&text=Ol%C3%A1%2C%20Bem%20Vindo%20ao%20atendimento%20r%C3%A1pido%20via%20Whatsapp!',
-  google: 'https://www.google.com.br/search?ved=1t:65428&_ga=2.134642289.1214621055.1633344992-771114271.1633344992&q=Madeiras+Santos+EIRELI&ludocid=16927124937789177837&lsig=AB86z5WPzfkrgtjfntzD1VhQj8Fi#fpstate=lie',
+  whatsapp:
+    'https://api.whatsapp.com/send?phone=5531992482390&text=Ol%C3%A1%2C%20Bem%20Vindo%20ao%20atendimento%20r%C3%A1pido%20via%20Whatsapp!',
+  google:
+    'https://www.google.com.br/search?ved=1t:65428&_ga=2.134642289.1214621055.1633344992-771114271.1633344992&q=Madeiras+Santos+EIRELI&ludocid=16927124937789177837&lsig=AB86z5WPzfkrgtjfntzD1VhQj8Fi#fpstate=lie',
   locale: 'pt-BR',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
