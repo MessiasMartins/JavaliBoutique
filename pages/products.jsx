@@ -16,7 +16,7 @@ export default function Products() {
             Produtos e Serviços
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Alguns se encontram os produtos e serviços oferecidos por nós:
+            Aqui se encontram os produtos e serviços oferecidos por nós:
           </p>
         </div>
         <div className="container py-12">
