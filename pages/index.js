@@ -130,7 +130,7 @@ export default function Home({ posts }) {
           <p className="pt-6 pb-8 text-lg text-gray-500 dark:text-gray-400">
             A seguir alguns dos tipos de produtos e materiais com os quais trabalhamos
           </p>
-          <div className="text-center text-2xl font-extrabold pt-6 pb-4 leading-7 grid grid-cols-3 gap-4 center sm: text-sm">
+          <div className="text-center lg:text-2xl md:text-2xl font-extrabold pt-6 pb-4 leading-7 grid grid-cols-3 gap-4 center sm:text-sm">
             <div>• Madeiras em Geral</div>
             <div>• Madeirites / Chapas / Compensados</div>
             <div>• Paraju</div>
