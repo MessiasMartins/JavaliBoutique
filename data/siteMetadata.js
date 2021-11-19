@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Madeiras Santos EIRELI. Qualidade, Preço Baixo e Entrega Ágil',
+  title: 'Madeiras Santos EIRELI - Qualidade, Preço Baixo e Entrega Ágil',
   author: 'Audere - Agência e Desenvolvimento de Produtos para a Web',
   headerTitle: 'Madeiras Santos',
   description:
