@@ -7,6 +7,8 @@ import Mail from './mail.svg'
 import Instagram from './instagram.svg'
 import Whatsapp from './whatsapp.svg'
 import Google from './google.svg'
+import MasterCard from '../other-icons/mastercardlogo.svg'
+import Visa from '../other-icons/visa.svg'
 
 // Icons taken from: https://simpleicons.org/ and https://heroicons.com/
 
@@ -20,6 +22,8 @@ const components = {
   instagram: Instagram,
   whatsapp: Whatsapp,
   google: Google,
+  mastercard: MasterCard,
+  visa: Visa,
 }
 
 const SocialIcon = ({ kind, href, size = 8 }) => {
