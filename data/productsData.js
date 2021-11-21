@@ -32,9 +32,8 @@ const productsData = [
   },
   {
     title: 'Telhas',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    description: `Possuimos diversos tipos de telhas para seu telhado. Telhas Coloniais de diversas cores e variedades,
+    telhas de PVC, telhas de Vidro e telhas galvanizadas.`,
     imgSrc: '/static/images/wood.jpg',
     //href: '/blog/telhas',
     href: '/construction',
