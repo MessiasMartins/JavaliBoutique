@@ -22,7 +22,7 @@ const siteMetadata = {
   //linkedin: 'https://www.linkedin.com',
   instgram: 'https://www.instagram.com/madeirassantos/',
   whatsapp:
-    'https://api.whatsapp.com/send?phone=5531992482390&text=Ol%C3%A1%2C%20Bem%20Vindo%20ao%20atendimento%20r%C3%A1pido%20via%20Whatsapp!',
+    'https://api.whatsapp.com/send?phone=5531992482390&text=Olá!%20Vim%20pelo%20link%20do%20whatsapp%20no%20site.%20Quero%20saber%20mais%20sobre%20seus%20produtos%20e%20serviços.',
   google:
     'https://www.google.com.br/search?ved=1t:65428&_ga=2.134642289.1214621055.1633344992-771114271.1633344992&q=Madeiras+Santos+EIRELI&ludocid=16927124937789177837&lsig=AB86z5WPzfkrgtjfntzD1VhQj8Fi#fpstate=lie',
   locale: 'pt-BR',
