@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Madeiras Santos EIRELI - Qualidade, Preço Baixo e Entrega Ágil',
   author: 'Audere - Agência e Desenvolvimento de Produtos para a Web',
-  headerTitle: 'Madeiras Santos',
+  headerTitle: 'Madeiras Santos EIRELI',
   description:
     'Madeiras de Qualidade, Preço Baixo, e Entrega Ágil com a confiança de mais de 30 anos de Experiência no mercado. Belo Horizonte Minas Gerais',
   language: 'pt-BR',
