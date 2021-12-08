@@ -7,7 +7,7 @@ const siteMetadata = {
   language: 'pt-BR',
   siteUrl: 'https://madeirassantos.com.br',
   siteRepo: '#',
-  siteLogo: '/static/images/logo_google2.png',
+  siteLogo: '/static/images/JAVALI-LOGO.svg',
   image: '/static/images/logo_google2.png',
   socialBanner: '/static/images/L-1.png',
   //***Conteudo para as demais páginas adaptados para SEO***/

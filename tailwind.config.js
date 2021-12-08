@@ -12,6 +12,10 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+
+      backgroundImage: {
+        'imagem-header': 'url(/static/images/banner-1-2.svg)',
+      },
       spacing: {
         '9/16': '56.25%',
       },
@@ -22,7 +26,7 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ["Fira Sans", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.teal,

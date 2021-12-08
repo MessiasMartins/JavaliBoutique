@@ -21,51 +21,37 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="relative overflow-hidden divide-y divide-gray-200 dark:divide-gray-300">
-        <div className="max-w-7xl mx-auto">
-          <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-            <svg
-              className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
-              fill="#059669"
-              viewBox="0 0 100 100"
-              preserveAspectRatio="none"
-              aria-hidden="true"
-            >
-              <polygon points="50,0 100,0 50,100 0,100" />
-            </svg>
-            <main className="mx-auto max-w-7xl px-4 sm:mt-0 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+      <div className="relative overflow-hidden -ml-7 bg-imagem-header bg-cover">
+        <div>
+          <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+            
+            <main className="ml-60 w-9/12 px-4 sm:mt-0 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 ">
               <div className="sm:text-center lg:text-left">
-                <h1 className="text-3xl pt-10 font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-                  <span className="block xl:inline">Madeiras de qualidade para o seu</span>{' '}
-                  <span className="block text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 xl:inline">
-                    {' '}
-                    atual Projeto!
-                  </span>
+                <h1 className="text-3xl pt-10 font-black leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 italic font-sans">
+                  <span className="block xl:inline ">Carnes nobres com qualidade e sem igual</span>
+                  
                 </h1>
-                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  O Know How de mais de 30 anos de experiência no setor madeireiro aliado a uma
-                  administração dinâmica e atendimento intimista.<br></br>
-                  <br></br>Conte conosco!
-                </p>
+                <p className="pt-10 font-bold">Torne seu evento ou refeição diária em uma experiência sem igual. Não deixe de conferir.</p>
+                
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
                     <a
                       href={siteMetadata.whatsapp}
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent 
-                    text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 
-                    md:text-lg md:px-10"
+                    text-base font-bold rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 
+                    md:text-lg md:px-10 h-12"
                     >
-                      Whatsapp
+                      WHATSAPP
                     </a>
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3">
                     <a
                       href={`mailto:${siteMetadata.email}`}
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent 
-                    text-base font-medium rounded-md text-gray-900 bg-indigo-100 hover:bg-indigo-200 md:py-4 
-                    md:text-lg md:px-10"
+                    text-base font-bold rounded-md text-white bg-red-700 hover:bg-red-800 md:py-4 
+                    md:text-lg md:px-10 h-12 ml-3"
                     >
-                      E-Mail
+                      E-MAIL
                     </a>
                   </div>
                 </div>
@@ -73,15 +59,7 @@ export default function Home({ posts }) {
             </main>
           </div>
         </div>
-        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-100">
-          <Image
-            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="/static/images/wood.jpg"
-            alt=""
-            width={1000}
-            height={1000}
-          />
-        </div>
+        
       </div>
 
       <div className="grid-cols-2 divide-y divide-gray-200 dark:divide-gray-700">
