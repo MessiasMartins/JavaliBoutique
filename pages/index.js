@@ -27,7 +27,7 @@ export default function Home({ posts }) {
             
             <main className="ml-60 w-9/12 px-4 sm:mt-0 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 ">
               <div className="sm:text-center lg:text-left">
-                <h1 className="text-3xl pt-10 font-black leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 italic font-sans">
+                <h1 className="text-3xl pt-10 leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 italic font-sans">
                   <span className="block xl:inline ">Carnes nobres com qualidade e sem igual</span>
                   
                 </h1>
@@ -62,38 +62,7 @@ export default function Home({ posts }) {
         
       </div>
 
-      <div className="grid-cols-2 divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Madeiras Santos
-          </h2>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
-          </p>
-          <div className="container py-12 bg-green-600">
-            <div className="flex flex-wrap -m-4"></div>
-            <div className="mt-5">
-              <dl className="space-y-10 md:space-y-0 md:gap-x-8 md:gap-y-10">
-                {features.map((feature) => (
-                  <div key={feature.name} className="relative">
-                    <dt>
-                      <div className="relative flex items-center justify-center rounded-md pb-2">
-                        <feature.icon className="h-10 w-10" aria-hidden="true" />
-                      </div>
-                      <p className="text-center text-2xl font-extrabold  pb-2 leading-7 text-gray-100">
-                        {feature.name}
-                      </p>
-                    </dt>
-                    <dd className="text-center text- text-lg font-medium pb-2 leading-7 text-gray-100">
-                      {feature.description}
-                    </dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
