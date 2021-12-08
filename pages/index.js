@@ -64,25 +64,26 @@ export default function Home({ posts }) {
 
       
       <div>
-        <div className="mt-10">
+        <div className="mt-10 w-full">
           <h2 className="text-xl text-center font-sans italic text-black">Javali Boutique de Carnes</h2>
-          <div>
+          <div className="flex mt-10 justify-around">
+            
             <div>
-              <img src="../static/images/motorcycle-delivery-44491.png"/>
-              <h3>Delivery</h3>
-              <p>Use nossos serviços de delivery, entregamos em toda BH e Região</p>
+              <img className="mx-auto" src="../static/images/motorcycle-delivery-44491.png"/>
+              <h3 className="text-lg text-center font-bold mt-2">Delivery</h3>
+              <p className="text-md text-center font-bold w-4/6 mx-auto mt-3">Use nossos serviços de delivery, entregamos em toda BH e Região</p>
+            </div>
+
+            <div className="mt-6">
+              <img className="mx-auto mb-4" src="../static/images/parking-sign-25261.png"/>
+              <h3 className="text-lg text-center font-bold">Estacionamento no Local</h3>
+              <p className="text-md text-center font-bold w-4/6 mx-auto mt-2">Estacionamento próprio no local</p>
             </div>
 
             <div>
-              <img src="../static/images/parking-sign-25261.png"/>
-              <h3>Estacionamento no Local</h3>
-              <p>Estacionamento próprio no local</p>
-            </div>
-
-            <div>
-              <img src="../static/images/maps-location-pointer-111051.png" />
-              <h3>Fácil Localização</h3>
-              <p>Acesso rápido e fácil aos principais corredores viário de BH</p>
+              <img className="mx-auto" src="../static/images/maps-location-pointer-111051.png" />
+              <h3 className="text-lg text-center font-bold mt-2">Fácil Localização</h3>
+              <p className="text-md text-center w-4/6 mx-auto font-bold mt-3">Acesso rápido e fácil aos principais corredores viário de BH</p>
             </div>
           </div>
         </div>
