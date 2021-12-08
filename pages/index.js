@@ -89,45 +89,65 @@ export default function Home({ posts }) {
         </div>
       </div>
 
-      
 
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Produtos e Serviços
-          </h2>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
-          </p>
+      <div className="flex mt-40">
+        <div className="w-1/2">
+          <img className="mx-auto" src="../static/images/sobrecoxa-1.png" />
         </div>
-        <div>
-          <p className="pt-6 pb-8 text-lg text-gray-500 dark:text-gray-400">
-            A seguir alguns dos tipos de produtos e materiais com os quais trabalhamos
-          </p>
-          <div className="text-center lg:text-2xl md:text-2xl font-extrabold pt-6 pb-4 leading-7 grid grid-cols-3 gap-4 center sm:text-sm">
-            <div>• Madeiras em Geral</div>
-            <div>• Madeirites / Chapas / Compensados</div>
-            <div>• Paraju</div>
-            <div>• Decks de Madeira</div>
-            <div>• Portas</div>
-            <div>• Marcos e Rodapés</div>
-            <div>• Telhas</div>
-            <div>• Madeiras para Telhado</div>
-            <div>• Outros</div>
-          </div>
-          <div className="pb-3 mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center">
-            <div className="rounded-md shadow">
-              <a
-                href="./products"
-                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium 
-              rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10"
-              >
-                Saiba Mais
-              </a>
-            </div>
-          </div>
+
+        <div className="w-1/2 my-auto">
+          <h2 className="text-xl font-black">Qualidade, preço e satisfação.</h2>
+          <p className="text-lg font-black mt-5">
+            Produtos de qualidade impar e com preço competitivo. 
+            Carnes nobres e fornecedores qualificados, tudo visando 
+            uma boa experiência
+          </p>          
         </div>
+      </div> 
+
+      <div className="flex mt-40">        
+
+        <div className="w-1/2 my-auto ml-20">
+          <h2 className="text-xl font-black">Duvidas ou Informações sobre o preparo?</h2>
+          <p className="text-lg font-black mt-5">
+            Quer preparar aquela peça nova pela primeira vez 
+            e tem duvidas de como deve ser realizado? 
+            Conte com a gente! 
+          </p>
+
+        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+
+          <div className="mt-3 sm:mt-0 sm:ml-3">
+            <a
+              href={`mailto:${siteMetadata.email}`}
+              className="w-full flex items-center justify-center px-8 py-3 border border-transparent 
+            text-base font-bold rounded-md text-white bg-red-700 hover:bg-red-800 md:py-4 
+            md:text-lg md:px-10 h-12 ml-3"
+            >
+              LIGAR
+            </a>
+          </div>
+
+          <div className="rounded-md shadow ml-20">
+            <a
+              href={siteMetadata.whatsapp}
+              className="w-full flex items-center justify-center px-8 py-3 border border-transparent 
+            text-base font-bold rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 
+            md:text-lg md:px-10 h-12"
+            >
+              WHATSAPP
+            </a>
+          </div>                
+        </div>          
       </div>
+        
+        <div className="w-1/2">
+          <img className="mx-auto" src="../static/images/carrecordeiro-1.png" />
+        </div>        
+
+      </div>         
+
+      
 
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
