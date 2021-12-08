@@ -31,7 +31,7 @@ export default function Home({ posts }) {
                   <span className="block xl:inline ">Carnes nobres com qualidade e sem igual</span>
                   
                 </h1>
-                <p className="pt-10 font-bold">Torne seu evento ou refeição diária em uma experiência sem igual. Não deixe de conferir.</p>
+                <p className="pt-10 font-bold text-white">Torne seu evento ou refeição diária em uma experiência sem igual. Não deixe de conferir.</p>
                 
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
@@ -60,6 +60,32 @@ export default function Home({ posts }) {
           </div>
         </div>
         
+      </div>
+
+      
+      <div>
+        <div className="mt-10">
+          <h2 className="text-xl text-center font-sans italic text-black">Javali Boutique de Carnes</h2>
+          <div>
+            <div>
+              <img src="../static/images/motorcycle-delivery-44491.png"/>
+              <h3>Delivery</h3>
+              <p>Use nossos serviços de delivery, entregamos em toda BH e Região</p>
+            </div>
+
+            <div>
+              <img src="../static/images/parking-sign-25261.png"/>
+              <h3>Estacionamento no Local</h3>
+              <p>Estacionamento próprio no local</p>
+            </div>
+
+            <div>
+              <img src="../static/images/maps-location-pointer-111051.png" />
+              <h3>Fácil Localização</h3>
+              <p>Acesso rápido e fácil aos principais corredores viário de BH</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       
