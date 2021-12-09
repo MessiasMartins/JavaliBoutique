@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import productsData from '@/data/productsData';
 import Card from './Card';
+import { ArrowCircleRightIcon } from '@heroicons/react/solid'
+import { ArrowCircleLeftIcon } from '@heroicons/react/solid'
+import { ChevronRightIcon } from '@heroicons/react/solid'
+import { ChevronLeftIcon } from '@heroicons/react/solid'
+
+
 //import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 //import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
@@ -22,7 +28,7 @@ export default ({title,items}) => {
     const handleRightArrow = () => {
 
         let x = scrollX - Math.round(window.innerWidth / 2);
-        let listW = productsData.length * 600;
+        let listW = productsData.length * 500;
         if((window.innerWidth - listW) > x) {
             x = (window.innerWidth - listW) - 60
         }
@@ -34,25 +40,25 @@ export default ({title,items}) => {
         <div className="movieRow">
             <h2>{title}</h2>
             
-            <div className="movieRow--left" onClick={handleLeftArrow}>
-                <a>Esq</a>
+            <div className="seta-esquerda" onClick={handleLeftArrow}>
+                <ChevronLeftIcon className="h-24 w-24 text-gray-400" />
             </div>
 
-            <div className="movieRow--right" onClick={handleRightArrow}>
-                <a>Dir</a>
+            <div className="seta-direita" onClick={handleRightArrow}>
+                <ChevronRightIcon className="h-24 w-24 text-gray-400" />
             </div>
 
-            <div className="overflow-x-hidden p-8">
+            <div className="overflow-x-hidden pl-20">
 
                 <div className="roll-5" style={{
                     marginLeft: scrollX,
-                    width: productsData.length * 600,
+                    width: productsData.length * 500,
                 }}>
 
                 {productsData.map((produto) => (
 
-                    <div className="inline-block">
-                        <Card
+                    <div className="inline-block ">
+                        <Card                            
                             key={produto.title}
                             title={produto.title}
                             description={produto.description}

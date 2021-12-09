@@ -163,6 +163,12 @@ export default function Home({ posts }) {
       </div>
 
       <div>
+
+        <h2 className="text-62 italic text-center mt-10">Produtos</h2>
+        <p className="font-black text-lg text-justify mb-5 mx-24">
+          Alguns de nossos produtos e kits pré-montados ideais para churrascos e eventos, dos mais variados portes 
+          com a qualidade excepcional do Javali Boutique de Carnes. Veja uma seleção completa na página de produtos.
+        </p>
       
         <MovieRow />
       </div>   
