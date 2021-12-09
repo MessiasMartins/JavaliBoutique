@@ -9,6 +9,8 @@ import Image from 'next/dist/client/image'
 
 import NewsletterForm from '@/components/NewsletterForm'
 
+import MovieRow from '../components/MovieRow';
+
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
@@ -158,6 +160,11 @@ export default function Home({ posts }) {
         </div>
 
       
+      </div>
+
+      <div>
+      
+        <MovieRow />
       </div>   
       
     </>

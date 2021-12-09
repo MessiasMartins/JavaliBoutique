@@ -20,6 +20,12 @@
   }
 }
 
+@layer utilities {
+  .roll-5 {
+    transition: all ease 0.5s
+  }
+}
+
 .task-list-item:before {
   @apply hidden;
 }
