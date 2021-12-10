@@ -29,7 +29,7 @@ export default function Home({ posts }) {
             
             <main className="ml-60 w-9/12 px-4 sm:mt-0 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 ">
               <div className="sm:text-center lg:text-left">
-                <h1 className="text-3xl pt-10 leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 italic font-sans">
+                <h1 className="text-3xl pt-10 leading-9 tracking-tight text-white sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 italic font-sans">
                   <span className="block xl:inline ">Carnes nobres com qualidade e sem igual</span>
                   
                 </h1>
