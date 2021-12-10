@@ -154,7 +154,7 @@ export default function Home({ posts }) {
         <div className="pt-20 w-1/3 right-3/4 ml-45">
           <h2 className="text-white text-xl font-black text-62 italic font-sans">Receitas</h2>
 
-          <p className="text-white text-lg font-black mt-10 font-sans">Acompanhe nossas sugestões de receitas, utilizando como base nossa gama de produtos.</p>
+          <p className="text-white text-lg font-black mt-10">Acompanhe nossas sugestões de receitas, utilizando como base nossa gama de produtos.</p>
 
           <button className="bg-gray-200 h-10 w-52 rounded-lg border-gray-900 font-bold mt-10">Veja nossas Receitas!</button>
         </div>
@@ -173,7 +173,7 @@ export default function Home({ posts }) {
         <MovieRow />
       </div>
 
-      <div className="flex mt-20">
+      <div className="flex mt-20 mb-10">
       
         <div className="w-1/2">
           <h2 className="text-48 italic text-center">Conheça nosso blog</h2>
@@ -195,7 +195,7 @@ export default function Home({ posts }) {
           <div className="mx-14 mt-72">
             <h2 className="text-48 italic text-white">Fique por dentro das novidades</h2>
 
-            <p className="mt-10 font-black italic text-white">
+            <p className="mt-10 font-black text-white">
               Não perca nenhuma atualização, assine nossa Newsletter 
               para receber um E-mail sempre que uma atualização for 
               postada.
