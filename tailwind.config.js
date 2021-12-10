@@ -16,6 +16,7 @@ module.exports = {
       backgroundImage: {
         'imagem-header': 'url(/static/images/banner-1-2.svg)',
         'imagem-receitas': 'url(/static/images/banner-receitas.png)',
+        'imagem-blog': 'url(/static/images/Rectangle11.png)',
       },
       spacing: {
         '9/16': '56.25%',

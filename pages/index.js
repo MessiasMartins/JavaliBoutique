@@ -171,6 +171,45 @@ export default function Home({ posts }) {
         </p>
       
         <MovieRow />
+      </div>
+
+      <div className="flex mt-20">
+      
+        <div className="w-1/2">
+          <h2 className="text-48 italic text-center">Conheça nosso blog</h2>
+          <p className="mx-10 mt-10 font-black">Acompanhe noticias e informações diversas sobre produtos, receitas 
+            e curiosidades através do nosso Blog. Conteúdo produzido pela equipe 
+            do Javali com foco principal em manter nossos clientes informados.
+          </p>
+
+          <img 
+            className="mt-10 mx-auto"
+            src="../static/images/Rectangle6.png" 
+          />
+          
+
+        </div>
+
+        <div className="w-536 h-752 ml-10 bg-imagem-blog bg-cover">
+
+          <div className="mx-14 mt-72">
+            <h2 className="text-48 italic text-white">Fique por dentro das novidades</h2>
+
+            <p className="mt-10 font-black italic text-white">
+              Não perca nenhuma atualização, assine nossa Newsletter 
+              para receber um E-mail sempre que uma atualização for 
+              postada.
+            </p>
+
+            <div className="flex mt-10">
+              <input className="bg-white font-black w-64 h-10 rounded-lg" placeholder='    Seu email'/>
+              <button className="bg-laranja rounded-lg text-md h-10 w-44 ml-5 text-sm text-white font-black">CADASTRAR</button>
+            </div>
+
+          </div>
+
+        </div>
+      
       </div>   
       
     </>
