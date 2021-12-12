@@ -48,7 +48,7 @@ export default ({title,items}) => {
                 <ChevronRightIcon className="h-24 w-24 text-gray-400" />
             </div>
 
-            <div className="overflow-x-hidden pl-20">
+            <div className="overflow-x-hidden md:pl-20">
 
                 <div className="roll-5" style={{
                     marginLeft: scrollX,

@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'Madeiras Santos EIRELI - Qualidade, Preço Baixo e Entrega Ágil',
+  title: 'Javali - Boutique de Carnes',
   author: 'Audere - Agência e Desenvolvimento de Produtos para a Web',
-  headerTitle: 'Madeiras Santos EIRELI',
+  headerTitle: 'Javali - Boutique de Carnes',
   description:
     'Madeiras de Qualidade, Preço Baixo, e Entrega Ágil com a confiança de mais de 30 anos de Experiência no mercado. Belo Horizonte Minas Gerais',
   language: 'pt-BR',
@@ -11,7 +11,7 @@ const siteMetadata = {
   image: '/static/images/logo_google2.png',
   socialBanner: '/static/images/L-1.png',
   //***Conteudo para as demais páginas adaptados para SEO***/
-  otherTitle: 'Madeiras Santos EIRELI. Qualidade, Preço e Tradição',
+  otherTitle: 'Javali Boutique de Carnes',
   //otherDescripition:'#',
   //authorImg:'/static/images/audere23.png',
   email: 'comercial@madeirassantos.com.br',
