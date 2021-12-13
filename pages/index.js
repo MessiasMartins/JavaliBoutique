@@ -190,7 +190,7 @@ export default function Home({ posts }) {
 
         </div>
 
-        <div className="md:w-536 md:h-752 md:ml-10 md:bg-imagem-blog bg-red-700 bg-cover">
+        <div className="md:w-536 md:h-752 md:ml-10 md:bg-imagem-blog bg-red-700 bg-cover rounded-3xl">
 
           <div className="mx-14 md:mt-72 mt-24">
             <h2 className="md:text-48 text-4xl italic text-white md:pt-0 pt-5">Fique por dentro das novidades</h2>
@@ -201,7 +201,7 @@ export default function Home({ posts }) {
               postada.
             </p>
 
-            <div className="md:flex md:mt-10 mt-5">
+            <div className="md:flex md:mt-10 mt-5 rounded-lg">
               <input className="bg-white font-black w-64 h-10 rounded-lg md:ml-0 ml-5" placeholder='    Seu email'/>
               <button className="md:mt-0 mt-5 bg-laranja rounded-lg text-md h-10 w-44 md:ml-5 ml-14 text-sm text-white font-black md:mb-0 mb-5">CADASTRAR</button>
             </div>
