@@ -23,7 +23,7 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="relative overflow-hidden md:-ml-7 md:bg-imagem-header bg-cover bg-red-700 w-full">
+      <div className="relative overflow-hidden md:bg-imagem-header md:bg-cover bg-cover bg-red-700 w-full">
         <div>
           <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             
@@ -119,10 +119,10 @@ export default function Home({ posts }) {
 
           <div className="mt-5 sm:mt-8 sm:justify-center lg:justify-start">
 
-            <div className="mt-3 sm:mt-0 sm:ml-3 md:mb-0 mb-5">
+            <div className="mt-3 sm:mt-0 sm:ml-3 md:ml-36 mb-5">
               <a
                 href={`mailto:${siteMetadata.email}`}
-                className="md:w-full w-64 flex items-center justify-center px-8 py-3 border border-transparent 
+                className="w-64 flex items-center justify-center px-8 py-3 border border-transparent 
               text-base font-bold rounded-md text-white bg-red-700 hover:bg-red-800 md:py-4 
               md:text-lg md:px-10 h-12 md:ml-3 ml-14"
               >
@@ -130,10 +130,10 @@ export default function Home({ posts }) {
               </a>
             </div>
 
-            <div className="rounded-md shadow md:ml-20 ml-14">
+            <div className="rounded-md shadow md:ml-40 ml-14">
               <a
                 href={siteMetadata.whatsapp}
-                className="md:w-full w-64 flex items-center justify-center px-8 py-3 border border-transparent 
+                className="w-64 flex items-center justify-center px-8 py-3 border border-transparent 
               text-base font-bold rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 
               md:text-lg md:px-10 h-12"
               >
@@ -190,7 +190,7 @@ export default function Home({ posts }) {
 
         </div>
 
-        <div className="md:w-536 md:h-752 md:ml-10 md:bg-imagem-blog bg-red-700 bg-cover rounded-3xl">
+        <div className="md:w-536 md:h-752 md:ml-10 md:bg-imagem-blog bg-red-700 bg-cover md:rounded-3xl">
 
           <div className="mx-14 md:mt-72 mt-24">
             <h2 className="md:text-48 text-4xl italic text-white md:pt-0 pt-5">Fique por dentro das novidades</h2>
