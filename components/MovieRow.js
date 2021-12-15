@@ -14,6 +14,12 @@ export default ({title,items}) => {
 
     const [scrollX, setScrollX] = useState(0);
 
+    let avanco = 500
+
+   
+
+    
+
     //Configurando as setas para rolar os filmes na lista
     const handleLeftArrow = () => {
 
@@ -27,8 +33,20 @@ export default ({title,items}) => {
 
     const handleRightArrow = () => {
 
+               
+        
         let x = scrollX - Math.round(window.innerWidth / 2);
-        let listW = productsData.length * 500;
+
+        let listW = productsData.length * 500;        
+        
+        if(window.innerWidth < 1200){
+            listW = productsData.length * 400;
+        }        
+
+        if(window.innerWidth < 500){
+            listW = productsData.length * 380;
+        }
+
         if((window.innerWidth - listW) > x) {
             x = (window.innerWidth - listW) - 60
         }
@@ -52,7 +70,7 @@ export default ({title,items}) => {
 
                 <div className="roll-5" style={{
                     marginLeft: scrollX,
-                    width: productsData.length * 500,
+                    width: productsData.length * avanco,
                 }}>
 
                 {productsData.map((produto) => (
