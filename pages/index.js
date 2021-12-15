@@ -23,11 +23,11 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="relative overflow-hidden md:bg-imagem-header md:bg-cover bg-cover bg-red-700 w-full">
+      <div className="relative overflow-hidden lg:bg-imagem-header lg:bg-cover bg-cover bg-red-700 w-full">
         <div>
-          <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+          <div className="relative z-10 pb-8 sm:pb-16 lg:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             
-            <main className="md:ml-60 md:w-9/12 md:px-4 sm:mt-0 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 md:w-full">
+            <main className="lg:ml-60 lg:w-9/12 lg:px-4 sm:mt-0 sm:px-6 lg:mt-20 lg:px-8 xl:mt-28 md:w-full">
               <div className="text-center lg:text-left">
                 <h1 className="text-3xl pt-10 leading-9 tracking-tight text-white sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 italic font-sans">
                   <span className="block xl:inline ">Carnes nobres com qualidade e sem igual</span>
@@ -50,7 +50,7 @@ export default function Home({ posts }) {
                     <a
                       href={`mailto:${siteMetadata.email}`}
                       className="md:w-full w-64 flex items-center justify-center px-8 py-3 border border-transparent 
-                    text-base font-bold rounded-md md:text-white text-black md:bg-red-700 bg-white hover:bg-red-800 md:py-4 
+                    text-base font-bold rounded-md lg:text-white text-black lg:bg-red-700 bg-white hover:bg-red-800 md:py-4 
                     md:text-lg md:px-10 h-12 md:ml-3 mx-auto"
                     >
                       E-MAIL
@@ -97,7 +97,7 @@ export default function Home({ posts }) {
           <img className="mx-auto" src="../static/images/sobrecoxa-1.png" />
         </div>
 
-        <div className="md:w-1/2 my-auto md:mx-0 mx-5">
+        <div className="md:w-1/2 my-auto lg:mx-0 mx-5">
           <h2 className="font-black md:text-48 text-4xl">Qualidade, preço e satisfação.</h2>
           <p className="text-lg font-black mt-5 text-justify">
             Produtos de qualidade impar e com preço competitivo. 
@@ -109,7 +109,7 @@ export default function Home({ posts }) {
 
       <div className="md:flex md:mt-40 mt-20">        
 
-          <div className="md:w-1/2 my-auto md:ml-20 md:mx-0 mx-5">
+          <div className="md:w-1/2 my-auto lg:ml-20 lg:mx-0 mx-5">
             <h2 className="font-black md:text-48 text-4xl leading-none">Duvidas ou Informações sobre o preparo?</h2>
             <p className="text-lg font-black mt-5 text-justify">
               Quer preparar aquela peça nova pela primeira vez 
@@ -149,14 +149,14 @@ export default function Home({ posts }) {
 
       </div>
 
-      <div className="md:bg-imagem-receitas bg-red-700 bg-cover w-full h-96 mt-20">
+      <div className="lg:bg-imagem-receitas bg-red-700 bg-cover w-full h-96 mt-20">
 
-        <div className="pt-20 md:w-1/3 md:right-3/4 md:ml-45 mx-5">
+        <div className="pt-20 lg:w-1/3 lg:right-3/4 lg:ml-45 mx-5 md:mx-20">
           <h2 className="text-white text-xl font-black text-62 italic font-sans text-center">Receitas</h2>
 
           <p className="text-white text-lg font-black mt-10 text-justify">Acompanhe nossas sugestões de receitas, utilizando como base nossa gama de produtos.</p>
 
-          <button className="bg-gray-200 h-10 w-52 rounded-lg border-gray-900 font-bold mt-10 md:ml-32 mx-auto">Veja nossas Receitas!</button>
+          <button className="bg-gray-200 h-10 w-52 rounded-lg border-gray-900 font-bold mt-10 lg:ml-32 md:ml-44 mx-auto">Veja nossas Receitas!</button>
         </div>
 
       
@@ -173,9 +173,9 @@ export default function Home({ posts }) {
         <MovieRow />
       </div>
 
-      <div className="md:flex md:mt-20 mt-10 md:mb-10 mb-5">
+      <div className="lg:flex md:mt-20 mt-10 md:mb-10 mb-5">
       
-        <div className="md:w-1/2">
+        <div className="lg:w-1/2">
           <h2 className="text-48 italic text-center">Conheça nosso blog</h2>
           <p className="mx-10 mt-10 font-black">Acompanhe noticias e informações diversas sobre produtos, receitas 
             e curiosidades através do nosso Blog. Conteúdo produzido pela equipe 
@@ -190,10 +190,10 @@ export default function Home({ posts }) {
 
         </div>
 
-        <div className="md:w-536 md:h-752 md:ml-10 md:bg-imagem-blog bg-red-700 bg-cover md:rounded-3xl">
+        <div className="lg:w-536 md:h-752 lg:ml-10 md:bg-imagem-blog bg-red-700 bg-cover md:rounded-3xl lg:mx-0 md:mx-5">
 
-          <div className="mx-14 md:mt-72 mt-24">
-            <h2 className="md:text-48 text-4xl italic text-white md:pt-0 pt-5">Fique por dentro das novidades</h2>
+          <div className="mx-14 lg:mt-72 mt-24">
+            <h2 className="md:text-48 text-4xl italic text-white md:pt-56 lg:pt-0 pt-5">Fique por dentro das novidades</h2>
 
             <p className="md:mt-10 mt-5 font-black text-white text-justify">
               Não perca nenhuma atualização, assine nossa Newsletter 
@@ -201,7 +201,7 @@ export default function Home({ posts }) {
               postada.
             </p>
 
-            <div className="md:flex md:mt-10 mt-5 rounded-lg">
+            <div className="lg:flex md:mt-10 mt-5 rounded-lg">
               <input className="bg-white font-black w-64 h-10 rounded-lg md:ml-0 mx-auto" placeholder='    Seu email'/>
               <button className="md:mt-0 mt-5 bg-laranja rounded-lg text-md h-10 w-44 md:ml-5 mx-auto text-sm text-white font-black md:mb-0 mb-5">CADASTRAR</button>
             </div>
