@@ -41,7 +41,7 @@ export default function Home({ posts }) {
                       href={siteMetadata.whatsapp}
                       className="md:w-full w-64 flex items-center justify-center px-8 py-3 border border-transparent 
                     text-base font-bold rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 
-                    md:text-lg md:px-10 h-12 md:ml-0 ml-20"
+                    md:text-lg md:px-10 h-12 md:ml-0 mx-auto"
                     >
                       WHATSAPP
                     </a>
@@ -51,7 +51,7 @@ export default function Home({ posts }) {
                       href={`mailto:${siteMetadata.email}`}
                       className="md:w-full w-64 flex items-center justify-center px-8 py-3 border border-transparent 
                     text-base font-bold rounded-md md:text-white text-black md:bg-red-700 bg-white hover:bg-red-800 md:py-4 
-                    md:text-lg md:px-10 h-12 md:ml-3 ml-20"
+                    md:text-lg md:px-10 h-12 md:ml-3 mx-auto"
                     >
                       E-MAIL
                     </a>
@@ -119,23 +119,23 @@ export default function Home({ posts }) {
 
           <div className="mt-5 sm:mt-8 sm:justify-center lg:justify-start">
 
-            <div className="mt-3 sm:mt-0 sm:ml-3 md:ml-36 mb-5">
+            <div className="mt-3 sm:mt-0 mb-5">
               <a
                 href={`mailto:${siteMetadata.email}`}
                 className="w-64 flex items-center justify-center px-8 py-3 border border-transparent 
               text-base font-bold rounded-md text-white bg-red-700 hover:bg-red-800 md:py-4 
-              md:text-lg md:px-10 h-12 md:ml-3 ml-14"
+              md:text-lg md:px-10 h-12 mx-auto"
               >
                 LIGAR
               </a>
             </div>
 
-            <div className="rounded-md shadow md:ml-40 ml-14">
+            <div className="rounded-md shadow">
               <a
                 href={siteMetadata.whatsapp}
                 className="w-64 flex items-center justify-center px-8 py-3 border border-transparent 
               text-base font-bold rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 
-              md:text-lg md:px-10 h-12"
+              md:text-lg md:px-10 h-12 mx-auto"
               >
                 WHATSAPP
               </a>
@@ -156,7 +156,7 @@ export default function Home({ posts }) {
 
           <p className="text-white text-lg font-black mt-10 text-justify">Acompanhe nossas sugestões de receitas, utilizando como base nossa gama de produtos.</p>
 
-          <button className="bg-gray-200 h-10 w-52 rounded-lg border-gray-900 font-bold mt-10 md:ml-32 ml-20">Veja nossas Receitas!</button>
+          <button className="bg-gray-200 h-10 w-52 rounded-lg border-gray-900 font-bold mt-10 md:ml-32 mx-auto">Veja nossas Receitas!</button>
         </div>
 
       
@@ -202,8 +202,8 @@ export default function Home({ posts }) {
             </p>
 
             <div className="md:flex md:mt-10 mt-5 rounded-lg">
-              <input className="bg-white font-black w-64 h-10 rounded-lg md:ml-0 ml-5" placeholder='    Seu email'/>
-              <button className="md:mt-0 mt-5 bg-laranja rounded-lg text-md h-10 w-44 md:ml-5 ml-14 text-sm text-white font-black md:mb-0 mb-5">CADASTRAR</button>
+              <input className="bg-white font-black w-64 h-10 rounded-lg md:ml-0 mx-auto" placeholder='    Seu email'/>
+              <button className="md:mt-0 mt-5 bg-laranja rounded-lg text-md h-10 w-44 md:ml-5 mx-auto text-sm text-white font-black md:mb-0 mb-5">CADASTRAR</button>
             </div>
 
           </div>
