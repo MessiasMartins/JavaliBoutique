@@ -130,7 +130,7 @@ export default function Home({ posts }) {
               </a>
             </div>
 
-            <div className="rounded-md shadow">
+            <div>
               <a
                 href={siteMetadata.whatsapp}
                 className="w-64 flex items-center justify-center px-8 py-3 border border-transparent 
