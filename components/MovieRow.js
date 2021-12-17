@@ -37,10 +37,10 @@ export default ({title,items}) => {
         
         let x = scrollX - Math.round(window.innerWidth / 2);
 
-        let listW = productsData.length * 500;        
+        let listW = productsData.length * 380;        
         
         if(window.innerWidth < 1200){
-            listW = productsData.length * 400;
+            listW = productsData.length * 380;
         }        
 
         if(window.innerWidth < 500){
