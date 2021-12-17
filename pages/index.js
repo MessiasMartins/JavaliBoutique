@@ -151,7 +151,7 @@ export default function Home({ posts }) {
 
       <div className="lg:bg-imagem-receitas bg-red-700 bg-cover w-full h-96 mt-20">
 
-        <div id='text-receitas' className="pt-20 lg:w-1/3 lg:right-3/4 lg:ml-45 mx-5 md:mx-20">
+        <div className="pt-20 lg:w-1/3 lg:right-3/4 lg:ml-45 mx-5 md:mx-20">
           <h2 className="text-white text-xl font-black text-62 italic font-sans text-center">Receitas</h2>
 
           <p className="text-white text-lg font-black mt-10 text-justify">Acompanhe nossas sugestões de receitas, utilizando como base nossa gama de produtos.</p>
