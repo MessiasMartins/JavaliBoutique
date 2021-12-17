@@ -23,7 +23,7 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="relative overflow-hidden lg:bg-imagem-header lg:bg-cover bg-cover bg-red-700 w-full">
+      <div className="relative overflow-hidden lg:bg-imagem-header bg-cover bg-red-700 w-full mr-10">
         <div>
           <div className="relative z-10 pb-8 sm:pb-16 lg:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             
@@ -98,8 +98,8 @@ export default function Home({ posts }) {
         </div>
 
         <div className="md:w-1/2 my-auto lg:mx-0 mx-5">
-          <h2 className="font-black md:text-48 text-4xl">Qualidade, preço e satisfação.</h2>
-          <p className="text-lg font-black mt-5 text-justify">
+          <h2 className="font-black md:text-48 text-4xl ml-0 lg:-ml-2">Qualidade, preço e satisfação.</h2>
+          <p className="text-lg font-black mt-5 text-justify mx-0 lg:mx-10 ml-0 lg:-ml-0.5">
             Produtos de qualidade impar e com preço competitivo. 
             Carnes nobres e fornecedores qualificados, tudo visando 
             uma boa experiência
