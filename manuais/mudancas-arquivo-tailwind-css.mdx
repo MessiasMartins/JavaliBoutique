@@ -27,4 +27,65 @@ Foram adicionadas as seguintes classes ao arquivo tailwind.css:
     .roll-5 {
         transition: all ease 0.5s
   }
+
+  @layer utilities {
+  .w-370 {
+    width: 370px
+  }
+}
+
+
+@layer utilities {
+  .rounded-15 {
+    border-radius: 15px
+  }
+}
+
+@layer utilities {
+  .t-black {
+    color: #282828
+  }
+}
+
+
+@layer utilities {
+  .seta-direita {
+    right: 0;
+    margin-top: 16%;    
+    position: absolute;
+    display: flex;
+    z-index: 99;
+    align-items: center;
+  }
+}
+
+    @layer utilities {
+    .seta-esquerda {
+        left: 0;
+        margin-top: 16%;     
+        position: absolute;
+        display: flex;
+        z-index: 99;
+        align-items: center;
+    }
+    }
+
+    @layer utilities {
+    .w-536 {
+        width: 536px;
+    }
+    }
+
+    @layer utilities {
+    .bg-laranja {
+        background-color: #FF2D02;
+    }
+    }
+
+    @layer utilities {
+    .h-752 {
+        height: 752px;
+    }
+    }
+
 }
