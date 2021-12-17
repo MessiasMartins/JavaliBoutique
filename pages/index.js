@@ -23,7 +23,7 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="relative overflow-hidden lg:bg-imagem-header bg-cover bg-red-700 w-full mr-10">
+      <div className="overflow-hidden lg:bg-imagem-header bg-cover bg-red-700 ml-0 lg:-ml-0.5">
         <div>
           <div className="relative z-10 pb-8 sm:pb-16 lg:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             
