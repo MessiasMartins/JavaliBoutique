@@ -86,6 +86,12 @@
   }
 }
 
+@layer utilities {
+  .bg-button-black {
+    background-color: #000000;
+  }
+}
+
 .task-list-item:before {
   @apply hidden;
 }
