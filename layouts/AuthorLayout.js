@@ -12,8 +12,8 @@ export default function AuthorLayout({ children, frontMatter }) {
         title={`Sobre - ${siteMetadata.otherTitle}`}
         description={siteMetadata.description}
       />
-      <div className="divide-y max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0">
-        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
+      <div className="divide-y">
+        <div className="pt-6 pb-8 space-y-2 md:space-y-5 ml-0 ml-32">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Sobre
           </h1>
@@ -37,7 +37,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="google" href={siteMetadata.google} size="5" />
             </div>
           </div>
-          <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">{children}</div>
+          <div className="mx-0 lg:mx-7 pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2 text-justify">{children}</div>
         </div>
       </div>
     </>
