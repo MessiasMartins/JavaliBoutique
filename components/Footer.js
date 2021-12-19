@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
         <div className="mb-3 text-center text-sm font-black">
           <span>
-            Avenida Portugal, 901A - Santa Amélia, Belo Horizonte / Minas Gerais CEP:31550-000
+            Avenida Portugal, 830A - Santa Amélia, Belo Horizonte / Minas Gerais CEP:31550-000
           </span>
         </div>
         <div className="mb-1 text-sm font-black">
