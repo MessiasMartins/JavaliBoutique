@@ -1,9 +1,9 @@
 const siteMetadata = {
-  title: 'Javali - Boutique de Carnes Nobres',
+  title: 'Javali - Boutique de Carnes',
   author: 'Audere - Agência e Desenvolvimento de Produtos para a Web',
-  headerTitle: 'Javali - Boutique de Carnes Nobres',
+  headerTitle: 'Javali - Boutique de Carnes',
   description:
-    'Javali Boutique de Carnes Nobres -Tradição, Variedade, Qualidade, Preço Justo e Delivery com Entrega Rápida. Belo Horizonte Minas Gerais',
+    'Javali Boutique de Carnes - Cortes Nobres, Tradição, Variedade, Qualidade, Preço Justo e Delivery com Entrega Rápida. Belo Horizonte Minas Gerais',
   language: 'pt-BR',
   siteUrl: 'https://javaliboutique.com.br/',
   siteRepo: '#',
@@ -11,9 +11,10 @@ const siteMetadata = {
   image: '/static/images/logo_google2.png',
   socialBanner: '/static/images/L-1.png',
   //***Conteudo para as demais páginas adaptados para SEO***/
-  otherTitle: 'Javali Boutique de Carnes Nobres',
+  otherTitle: 'Javali Boutique de Carnes',
   //otherDescripition:'#',
   //authorImg:'/static/images/audere23.png',
+  phone: '+553125272909',
   email: 'javali@javaliboutique.com.br',
   //github: 'https://github.com',
   //twitter: 'https://twitter.com/Twitter',

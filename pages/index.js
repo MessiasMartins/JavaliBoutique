@@ -6,9 +6,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import features from '@/components/Features'
 import Image from 'next/dist/client/image'
-
 import NewsletterForm from '@/components/NewsletterForm'
-
 import MovieRow from '../components/MovieRow'
 
 const MAX_DISPLAY = 5
@@ -69,7 +67,7 @@ export default function Home({ posts }) {
       <div>
         <div className="mt-10 w-full">
           <h2 className="text-4xl text-center font-sans italic text-black md:text-62 mt-20 mb-20">
-            Javali Boutique de Carnes Nobres
+            Javali Boutique de Carnes
           </h2>
           <div className="md:flex mt-10 justify-around">
             <div>
@@ -128,7 +126,7 @@ export default function Home({ posts }) {
           <div className="mt-5 sm:mt-8 sm:justify-center lg:justify-start">
             <div className="mt-3 sm:mt-0 mb-5">
               <a
-                href={`mailto:${siteMetadata.email}`}
+                href={`callto:${siteMetadata.phone}`}
                 className="w-64 flex items-center justify-center px-8 py-3 border border-transparent 
               text-base font-bold rounded-md text-white bg-red-700 hover:bg-red-800 md:py-4 
               md:text-lg md:px-10 h-12 mx-auto"
