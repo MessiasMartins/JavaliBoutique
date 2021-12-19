@@ -72,7 +72,7 @@ export default function Home({ posts }) {
           <div className="md:flex mt-10 justify-around">
             <div>
               <img className="mx-auto" src="../static/images/motorcycle-delivery-44491.png" />
-              <h3 className="text-lg text-center font-bold mt-2">Delivery</h3>
+              <h3 className="text-lg text-center mt-2">Delivery</h3>
               <p className="text-md text-center font-bold w-4/6 mx-auto mt-3">
                 Use nossos serviços de delivery, entregamos em toda BH e Região
               </p>
@@ -106,9 +106,9 @@ export default function Home({ posts }) {
           <h2 className="font-black md:text-48 text-4xl ml-0 lg:-ml-2">
             Qualidade, preço e satisfação.
           </h2>
-          <p className="text-lg font-black mt-5 text-justify mx-0 lg:mx-10 ml-0 lg:-ml-0.5">
+          <p className="text-lg font-black mt-5 text-justify mx-0 lg:mx-12 ml-0 lg:-ml-1.5">
             Produtos de qualidade impar e com preço competitivo. Carnes nobres e fornecedores
-            qualificados, tudo visando uma boa experiência
+            qualificados, tudo visando uma boa experiência.
           </p>
         </div>
       </div>
