@@ -1,6 +1,6 @@
 ---
-name: Madeiras Santos EIRELI
-avatar: /static/images/logo_google2.png
+name: Javali Boutique de Carnes
+avatar: /static/images/JAVALI-LOGO.svg
 occupation: Belo Horizonte / Minas Gerais
 email: comercial@madeirassantos.com.br
 twitter: https://twitter.com/Twitter
