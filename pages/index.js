@@ -82,13 +82,13 @@ export default function Home({ posts }) {
 
       <div>
         <div className="mt-10 w-full">
-          <h2 className="text-4xl text-center font-sans italic text-black md:text-62 mt-20 mb-20">
+          <h2 className="text-4xl text-center font-sans italic text-black md:text-62 mt-20 mb-20 dark:text-white">
             Javali Boutique de Carnes
           </h2>
           <div className="md:flex mt-10 justify-around">
             <div>
               <img className="mx-auto" src="../static/images/motorcycle-delivery-44491.png" />
-              <h3 className="text-lg text-center mt-2">Delivery</h3>
+              <h3 className="text-lg text-center mt-2 font-bold">Delivery</h3>
               <p className="text-md text-center font-bold w-4/6 mx-auto mt-3">
                 Use nossos serviços de delivery, entregamos em toda BH e Região
               </p>
