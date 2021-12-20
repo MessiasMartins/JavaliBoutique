@@ -15,7 +15,7 @@ export default function Products() {
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Produtos e Serviços
           </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          <p className="text-lg leading-7 text-gray-900 font-black dark:text-gray-400">
             Aqui se encontram os produtos e serviços oferecidos por nós:
           </p>
         </div>
