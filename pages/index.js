@@ -179,7 +179,7 @@ export default function Home({ posts }) {
             Acompanhe nossas sugestões de receitas, utilizando como base nossa gama de produtos.
           </p>
 
-          <button className="bg-gray-200 h-10 w-52 rounded-lg border-gray-900 font-bold mt-10 lg:ml-32 md:ml-44 mx-auto">
+          <button className="bg-gray-200 h-10 w-52 rounded-lg border-gray-900 font-bold mt-10 lg:ml-32 md:ml-44 mx-auto dark:text-gray-900 font-black">
             Veja nossas Receitas!
           </button>
         </div>
