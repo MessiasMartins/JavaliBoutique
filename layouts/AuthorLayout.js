@@ -28,7 +28,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               className="w-48 h-48 rounded-full"
             />
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
-            <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
+            <div className="font-black text-gray-500 dark:text-gray-400">{occupation}</div>
             <div className="text-gray-500 dark:text-gray-400">{company}</div>
             <div className="flex pt-6 space-x-3">
               <SocialIcon kind="mail" href={`mailto:${email}`} size="6" />
@@ -37,7 +37,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="google" href={siteMetadata.google} size="5" />
             </div>
           </div>
-          <div className="mx-0 lg:mx-7 pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2 text-justify">{children}</div>
+          <div className="mx-0 lg:mx-7 pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2 text-justify font-black">{children}</div>
         </div>
       </div>
     </>
