@@ -105,13 +105,45 @@
   }
 }
 
-@keyframes scale {
+@layer utilities {
+  .anim-1 {
+    animation: moveBanner 1s 0.3s forwards;
+  }
+}
+
+@layer utilities {
+  .anim-2 {
+    animation: moveBanner 1s 0.5s forwards;
+  }
+}
+
+@layer utilities {
+  .anim-3 {
+    animation: moveBanner 1s 0.7s forwards;
+  }
+}
+
+@layer utilities {
+  .anim-4 {
+    animation: moveBanner 1s 0.8s forwards;
+  }
+}
+
+@layer utilities {
+  .anim-5 {
+    animation: moveBanner 1s 0.9s forwards;
+  }
+}
+
+@keyframes moveBanner {
   0% {
-      transform: scale(1);
+      transform: translateY(40rem) rotateY(-20deg);
   }
   100% {
-      transform: scale(1.1);
-  }
+      transform: translateY(0) rotateY(0);
+      opacity: 1;
+  };
+  
 }
 
 .task-list-item:before {
