@@ -28,7 +28,7 @@ export default function Home({ posts }) {
           
             <main className="lg:ml-60 lg:w-12/12 lg:px-4 sm:mt-0 sm:px-6 lg:mt-20 lg:px-8 xl:mt-28 md:w-full">            
             
-              <div className="text-center lg:text-left">
+              <div className="opacity-0 text-center lg:text-left animacao">
                 <h1 className="text-3xl pt-10 leading-9 tracking-tight text-white sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 italic font-sans">
                   <span className="block xl:inline ">
                     Carnes nobres com qualidade sem igual em BH e Região
@@ -86,7 +86,7 @@ export default function Home({ posts }) {
             Javali Boutique de Carnes
           </h2>
           <div className="md:flex mt-10 justify-around">
-            <div>
+            <div className="animacao">
               <img className="mx-auto" src="../static/images/motorcycle-delivery-44491.png" />
               <h3 className="text-lg text-center mt-2 font-bold">Delivery</h3>
               <p className="text-md text-center font-bold w-4/6 mx-auto mt-3">
@@ -94,7 +94,7 @@ export default function Home({ posts }) {
               </p>
             </div>
 
-            <div className="md:mt-6 mt-10">
+            <div className="md:mt-6 mt-10 animacao">
               <img className="mx-auto mb-4" src="../static/images/parking-sign-25261.png" />
               <h3 className="text-lg text-center font-bold">Estacionamento no Local</h3>
               <p className="text-md text-center font-bold w-4/6 mx-auto mt-2">
@@ -102,7 +102,7 @@ export default function Home({ posts }) {
               </p>
             </div>
 
-            <div className="md:mt-0 mt-10">
+            <div className="md:mt-0 mt-10 animacao">
               <img className="mx-auto" src="../static/images/maps-location-pointer-111051.png" />
               <h3 className="text-lg text-center font-bold mt-2">Fácil Localização</h3>
               <p className="text-md text-center w-4/6 mx-auto font-bold mt-3">
