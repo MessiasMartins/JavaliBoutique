@@ -4,52 +4,50 @@
 
 @layer utilities {
   .ml-45 {
-    margin-left: 45rem
+    margin-left: 45rem;
   }
 }
 
 @layer utilities {
   .text-62 {
-    font-size: 62px
+    font-size: 62px;
   }
 }
 
 @layer utilities {
   .text-48 {
-    font-size: 48px
+    font-size: 48px;
   }
 }
 
 @layer utilities {
   .roll-5 {
-    transition: all ease 0.5s
+    transition: all ease 0.5s;
   }
 }
 
 @layer utilities {
   .w-370 {
-    width: 370px
+    width: 370px;
   }
 }
 
-
 @layer utilities {
   .rounded-15 {
-    border-radius: 15px
+    border-radius: 15px;
   }
 }
 
 @layer utilities {
   .t-black {
-    color: #282828
+    color: #282828;
   }
 }
-
 
 @layer utilities {
   .seta-direita {
     right: 0;
-    margin-top: 16%;    
+    margin-top: 16%;
     position: absolute;
     display: flex;
     z-index: 99;
@@ -60,7 +58,7 @@
 @layer utilities {
   .seta-esquerda {
     left: 0;
-    margin-top: 16%;     
+    margin-top: 16%;
     position: absolute;
     display: flex;
     z-index: 99;
@@ -76,7 +74,7 @@
 
 @layer utilities {
   .bg-laranja {
-    background-color: #FF2D02;
+    background-color: #ff2d02;
   }
 }
 
@@ -89,6 +87,59 @@
 @layer utilities {
   .bg-button-black {
     background-color: #000000;
+  }
+}
+
+@layer utilities {
+  .animacao {
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+  }
+}
+
+@layer utilities {
+  .animacao:hover {
+    transform: scale(1);
+  }
+}
+
+@layer utilities {
+  .anim-1 {
+    animation: moveBanner 1s 0.3s forwards;
+  }
+}
+
+@layer utilities {
+  .anim-2 {
+    animation: moveBanner 1s 0.5s forwards;
+  }
+}
+
+@layer utilities {
+  .anim-3 {
+    animation: moveBanner 1s 0.7s forwards;
+  }
+}
+
+@layer utilities {
+  .anim-4 {
+    animation: moveBanner 1s 0.8s forwards;
+  }
+}
+
+@layer utilities {
+  .anim-5 {
+    animation: moveBanner 1s 0.9s forwards;
+  }
+}
+
+@keyframes moveBanner {
+  0% {
+    transform: translateY(40rem) rotateY(-20deg);
+  }
+  100% {
+    transform: translateY(0) rotateY(0);
+    opacity: 1;
   }
 }
 

@@ -3,7 +3,7 @@ import Link from './Link'
 
 const Card = ({ title, description, imgSrc, href }) => (
   <div className="p-4 w-370 md" style={{ maxWidth: '544px' }}>
-    <div className="h-full overflow-hidden border border-gray-600 rounded-15 border-opacity-30">
+    <div className="h-full overflow-hidden border border-gray-600 rounded-15 border-opacity-30 animacao">
       {href ? (
         <Link href={href} aria-label={`Link to ${title}`}>
           <Image
@@ -36,7 +36,6 @@ const Card = ({ title, description, imgSrc, href }) => (
         <p className="font-black mb-3 prose text-gray-500 max-w-none text-justify t-black dark:text-white">
           {description}
         </p>
-        
       </div>
     </div>
   </div>

@@ -4,65 +4,68 @@ do tailwind não continham as configurações necessárias.
 Foram adicionadas as seguintes classes ao arquivo tailwind.css:
 
     @layer utilities {
-    .ml-45 {
+      .ml-45 {
         margin-left: 45rem
-  }
+
+}
 }
 
     @layer utilities {
-    .text-62 {
+      .text-62 {
         font-size: 62px
     }
     }
 
     @layer utilities {
-    .text-48 {
+      .text-48 {
         font-size: 48px
     }
     }
 
-    
+
     Essa classe faz o carrossel rolar mais devagar
     @layer utilities {
-    .roll-5 {
+      .roll-5 {
         transition: all ease 0.5s
-  }
 
-  @layer utilities {
-  .w-370 {
-    width: 370px
-  }
 }
-
-
-@layer utilities {
-  .rounded-15 {
-    border-radius: 15px
-  }
-}
-
-@layer utilities {
-  .t-black {
-    color: #282828
-  }
-}
-
-
-@layer utilities {
-  .seta-direita {
-    right: 0;
-    margin-top: 16%;    
-    position: absolute;
-    display: flex;
-    z-index: 99;
-    align-items: center;
-  }
 }
 
     @layer utilities {
-    .seta-esquerda {
+      .w-370 {
+        width: 370px
+    }
+
+}
+
+    @layer utilities {
+      .rounded-15 {
+        border-radius: 15px
+      }
+    }
+
+    @layer utilities {
+      .t-black {
+        color: #282828
+      }
+    }
+
+
+    @layer utilities {
+      .seta-direita {
+        right: 0;
+        margin-top: 16%;
+        position: absolute;
+        display: flex;
+        z-index: 99;
+        align-items: center;
+      }
+    }
+
+    @layer utilities {
+      .seta-esquerda {
         left: 0;
-        margin-top: 16%;     
+        margin-top: 16%;
         position: absolute;
         display: flex;
         z-index: 99;
@@ -71,21 +74,78 @@ Foram adicionadas as seguintes classes ao arquivo tailwind.css:
     }
 
     @layer utilities {
-    .w-536 {
+      .w-536 {
         width: 536px;
-    }
+      }
     }
 
     @layer utilities {
-    .bg-laranja {
+      .bg-laranja {
         background-color: #FF2D02;
-    }
+      }
     }
 
     @layer utilities {
-    .h-752 {
+      .h-752 {
         height: 752px;
-    }
+      }
     }
 
-}
+    @layer utilities {
+      .bg-button-black {
+        background-color: #000000;
+      }
+    }
+
+    @layer utilities {
+      .animacao{
+        transform: scale(0.9);
+        transition: all ease 0.2s;
+      }
+    }
+
+    @layer utilities {
+      .animacao:hover {
+        transform: scale(1);
+      }
+    }
+
+    @layer utilities {
+      .anim-1 {
+        animation: moveBanner 1s 0.3s forwards;
+      }
+    }
+
+    @layer utilities {
+      .anim-2 {
+        animation: moveBanner 1s 0.5s forwards;
+      }
+    }
+
+    @layer utilities {
+      .anim-3 {
+        animation: moveBanner 1s 0.7s forwards;
+      }
+    }
+
+    @layer utilities {
+      .anim-4 {
+        animation: moveBanner 1s 0.8s forwards;
+      }
+    }
+
+    @layer utilities {
+      .anim-5 {
+        animation: moveBanner 1s 0.9s forwards;
+      }
+    }
+
+    @keyframes moveBanner {
+      0% {
+          transform: translateY(40rem) rotateY(-20deg);
+      }
+      100% {
+          transform: translateY(0) rotateY(0);
+          opacity: 1;
+      };
+    }

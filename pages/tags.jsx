@@ -22,7 +22,7 @@ export default function Tags({ tags }) {
             Tags
           </h1>
         </div>
-        <div className="flex flex-wrap max-w-lg ml-0 ml-32">
+        <div className="flex flex-wrap max-w-lg ml-1 lg:ml-32">
           {Object.keys(tags).length === 0 && 'Não foram encontadas Tags.'}
           {sortedTags.map((t) => {
             return (
