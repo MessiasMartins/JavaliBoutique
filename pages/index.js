@@ -24,10 +24,9 @@ export default function Home({ posts }) {
       <div className="overflow-hidden lg:bg-imagem-header bg-cover bg-red-700 ml-0 lg:-ml-0.5">
         <div>
           <div className="relative z-10 pb-8 sm:pb-16 lg:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-          <div className="text-xl mt-5 ml-5 text-white italic">Tel: (31) 2527-2909</div>
-          
-            <main className="lg:ml-60 lg:w-12/12 lg:px-4 sm:mt-0 sm:px-6 lg:mt-20 lg:px-8 xl:mt-28 md:w-full">            
-            
+            <div className="text-xl mt-5 ml-5 text-white italic">(31) 2527-2909</div>
+
+            <main className="lg:ml-60 lg:w-12/12 lg:px-4 sm:mt-0 sm:px-6 lg:mt-20 lg:px-8 xl:mt-28 md:w-full">
               <div className="text-center lg:text-left">
                 <h1 className="text-3xl pt-10 leading-9 tracking-tight text-white sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 italic font-sans">
                   <span className="block xl:inline ">
@@ -37,7 +36,7 @@ export default function Home({ posts }) {
                 <p className="pt-10 font-bold text-white">
                   Torne seu evento ou refeição diária em uma experiência sem igual. Não deixe de
                   conferir, fale conosco.
-                </p>                                
+                </p>
 
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
@@ -64,17 +63,14 @@ export default function Home({ posts }) {
                     <a
                       href={siteMetadata.whatsapp}
                       className="md:w-full w-64 flex items-center justify-center px-8 py-3 border border-transparent 
-                    text-base font-bold rounded-md text-white bg-button-black hover:bg-gray-700 md:py-4 
-                    md:text-lg md:px-6 h-12 md:ml-7 mx-auto"
+                      text-base font-bold rounded-md lg:text-white text-black lg:bg-red-700 bg-white hover:bg-red-800 md:py-4 
+                      md:text-lg md:px-6 h-12 md:ml-7 mx-auto"
                     >
                       COMO CHEGAR
                     </a>
                   </div>
                 </div>
-
-                
-
-              </div>              
+              </div>
             </main>
           </div>
         </div>
@@ -179,7 +175,7 @@ export default function Home({ posts }) {
             Acompanhe nossas sugestões de receitas, utilizando como base nossa gama de produtos.
           </p>
 
-          <button className="bg-gray-200 h-10 w-52 rounded-lg border-gray-900 font-bold mt-10 lg:ml-32 md:ml-44 mx-auto">
+          <button className="bg-gray-200 h-10 w-52 rounded-lg border-gray-900 font-bold mt-10 lg:ml-32 md:ml-44 mx-auto dark:text-black">
             Veja nossas Receitas!
           </button>
         </div>

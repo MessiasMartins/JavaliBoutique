@@ -20,7 +20,7 @@ export default function Products() {
           </p>
         </div>
         <div className="container py-12">
-          <div className="flex flex-wrap ml-0 lg:ml-32">
+          <div className="flex flex-wrap ml-0 text-center">
             {productsData.map((d) => (
               <Card
                 key={d.title}
