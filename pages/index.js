@@ -43,7 +43,7 @@ export default function Home({ posts }) {
                 </div>
 
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                  <div className="rounded-md shadow opacity-0 anim-3">
+                  <div className="rounded-md opacity-0 anim-3">
                     <a
                       href={siteMetadata.whatsapp}
                       className="md:w-full w-64 flex items-center justify-center px-8 py-3 border border-transparent 
@@ -63,7 +63,7 @@ export default function Home({ posts }) {
                       E-MAIL
                     </a>
                   </div>
-                  <div className="rounded-md shadow opacity-0 anim-5">
+                  <div className="rounded-md opacity-0 anim-5">
                     <a
                       href={siteMetadata.whatsapp}
                       className="md:w-full w-64 flex items-center justify-center px-8 py-3 border border-transparent 
