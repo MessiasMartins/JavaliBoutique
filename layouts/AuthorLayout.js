@@ -37,7 +37,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="google" href={siteMetadata.google} size="5" />
             </div>
           </div>
-          <div className="mx-0 lg:mx-7 pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2 text-justify font-black">{children}</div>
+          <div className="mx-5 lg:mx-7 pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2 text-justify font-black">{children}</div>
         </div>
       </div>
     </>
