@@ -21,7 +21,7 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="overflow-hidden lg:bg-imagem-header bg-cover bg-red-700 ml-0 lg:-ml-0.5">
+      <div className="overflow-hidden bg-imagem-header bg-cover -ml-0.5">
         <div>
           <div className="relative z-10 pb-8 sm:pb-16 lg:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             <div className="opacity-0 anim-1 text-xl mt-5 ml-5 text-white italic">
@@ -57,7 +57,7 @@ export default function Home({ posts }) {
                     <a
                       href={`mailto:${siteMetadata.email}`}
                       className="md:w-full w-64 flex items-center justify-center px-8 py-3 border border-transparent 
-                    text-base font-bold rounded-md lg:text-white text-black lg:bg-red-700 bg-white hover:bg-red-800 md:py-4 
+                    text-base font-bold rounded-md text-white bg-red-700 hover:bg-red-800 md:py-4 
                     md:text-lg md:px-10 h-12 md:ml-3 mx-auto mb-3 md:mb-0"
                     >
                       E-MAIL
@@ -67,7 +67,7 @@ export default function Home({ posts }) {
                     <a
                       href={siteMetadata.whatsapp}
                       className="md:w-full w-64 flex items-center justify-center px-8 py-3 border border-transparent 
-                      text-base font-bold rounded-md lg:text-white text-black lg:bg-red-700 bg-white hover:bg-red-800 md:py-4 
+                      text-base font-bold rounded-md text-white bg-red-700 hover:bg-red-800 md:py-4 
                       md:text-lg md:px-6 h-12 md:ml-7 mx-auto"
                     >
                       COMO CHEGAR
