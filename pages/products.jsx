@@ -19,14 +19,7 @@ export default function Products() {
             Aqui se encontram os produtos e serviços oferecidos por nós:
           </p>
         </div>
-        <div>
-          <select className="text-black font-black" name="Produto"> 
-            <option className="text-black font-black" value="Boi">Boi</option>
-            <option className="text-black font-black" value="Porco">Porco</option>
-            <option className="text-black font-black" value="Frango">Frango</option>
-            <option className="text-black font-black" value="Peixe">Peixe</option>
-          </select>
-        </div>
+        
         <div className="container py-12">
           <div className="flex flex-wrap justify-center">
             {productsData.map((d) => (
