@@ -1,9 +1,17 @@
+import { useState } from 'react'
 import siteMetadata from '@/data/siteMetadata'
 import productsData from '@/data/productsData'
 import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 
+const listaProdutos = productsData
+
 export default function Products() {
+
+  const [busca, setBusca] = useState('');
+  const produtosFiltrados = listaProdutos.filter((prod) => prod.type == busca) 
+  
+
   return (
     <>
       <PageSEO
@@ -18,11 +26,20 @@ export default function Products() {
           <p className="text-lg leading-7 text-gray-900 font-black dark:text-gray-400">
             Aqui se encontram os produtos e serviços oferecidos por nós:
           </p>
-        </div>
+        </div>        
         
-        <div className="container py-12">
-          <div className="flex flex-wrap justify-center">
-            {productsData.map((d) => (
+        <div className="container py-12">          
+
+          <select className='font-black text-gray-900' value={busca} onChange={(e) => setBusca(e.target.value)}>
+            <option className='font-black text-gray-900' value=''>Todos</option>
+            <option className='font-black text-gray-900' value='frango'>Frango</option>
+            <option className='font-black text-gray-900' value='boi'>Boi</option>
+            <option className='font-black text-gray-900' value='porco'>Porco</option>
+          </select>
+
+          <div className="flex flex-wrap justify-center">           
+
+            {produtosFiltrados.map((d) => (
               <Card
                 key={d.title}
                 title={d.title}
