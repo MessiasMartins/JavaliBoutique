@@ -1,11 +1,8 @@
 import React, { useState } from 'react'
 import productsData from '@/data/productsData'
 import Card from './Card'
-import { ArrowCircleRightIcon } from '@heroicons/react/solid'
-import { ArrowCircleLeftIcon } from '@heroicons/react/solid'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import { ChevronLeftIcon } from '@heroicons/react/solid'
-
 //import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 //import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
