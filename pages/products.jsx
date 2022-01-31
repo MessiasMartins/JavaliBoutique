@@ -7,10 +7,8 @@ import { PageSEO } from '@/components/SEO'
 const listaProdutos = productsData
 
 export default function Products() {
-
   const [busca, setBusca] = useState('')
-  const produtosFiltrados = listaProdutos.filter((prod) => prod.type == busca)  
-
+  const produtosFiltrados = listaProdutos.filter((prod) => prod.type == busca)
   return (
     <>
       <PageSEO
@@ -25,23 +23,23 @@ export default function Products() {
           <p className="text-lg leading-7 text-gray-900 font-black dark:text-gray-400">
             Aqui se encontram os produtos e serviços oferecidos por nós:
           </p>
-        </div>                
-        <div className="container py-12"> 
-          <select 
-            className='font-black text-gray-900' 
-            value={busca} 
-            onChange={(e) => setBusca(e.target.value)}
+        </div>
+        <div className="container py-12">
+          <select
+            className="font-black text-gray-900"
+            value={busca}
+            onBlur={(e) => setBusca(e.target.value)}
           >
-            <option className='font-black text-gray-900' value=''>
+            <option className="font-black text-gray-900" value="">
               Todos
             </option>
-            <option className='font-black text-gray-900' value='frango'>
+            <option className="font-black text-gray-900" value="frango">
               Frango
             </option>
-            <option className='font-black text-gray-900' value='boi'>
+            <option className="font-black text-gray-900" value="boi">
               Boi
             </option>
-            <option className='font-black text-gray-900' value='porco'>
+            <option className="font-black text-gray-900" value="porco">
               Porco
             </option>
           </select>
