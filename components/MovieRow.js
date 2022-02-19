@@ -32,20 +32,18 @@ export default function MovieRow(title, button, index) {
     setScrollX(x)
   }
   return (
-    <div className="movieRow" onKeyDown={this.handleClick} role={button}>
+    <div className="movieRow" role={button}>
       <h2>{title}</h2>
       <div
         className="seta-esquerda"
-        onClick={handleLeftArrow}
-        onKeyDown={this.handleClick}
+        onClick={handleLeftArrow}        
         role={button}
       >
         <ChevronLeftIcon className="h-24 w-24 text-gray-400" />
       </div>
       <div
         className="seta-direita"
-        onClick={handleRightArrow}
-        onKeyDown={this.handleClick}
+        onClick={handleRightArrow}        
         role={button}
       >
         <ChevronRightIcon className="h-24 w-24 text-gray-400" />
