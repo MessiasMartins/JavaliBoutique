@@ -1,20 +1,18 @@
 import { useState } from 'react'
 import siteMetadata from '@/data/siteMetadata'
 import productsData from '@/data/productsData'
-import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 import Categories from '@/components/Categories'
 import ProductsList from '@/components/ProductsList'
 
-const allTypes = ['TODOS', ...new Set(productsData.map((item) => item.type))];
+const allTypes = ['TODOS', ...new Set(productsData.map((item) => item.type))]
 
 export default function Products() {
-
   const [items, setItems] = useState(productsData)
   const [type, setType] = useState(allTypes)
-  
+
   const filterItems = (category) => {
-    if(category === 'TODOS') {
+    if (category === 'TODOS') {
       setItems(productsData)
       return
     }
@@ -36,10 +34,10 @@ export default function Products() {
           <p className="text-lg leading-7 text-gray-900 font-black dark:text-gray-400">
             Aqui se encontram os produtos e serviços oferecidos por nós:
           </p>
-        </div>                
-        <div className="container py-12"> 
-          <Categories type={type} filterItems={filterItems} />          
-          <ProductsList items={items} />          
+        </div>
+        <div className="container py-12">
+          <Categories type={type} filterItems={filterItems} />
+          <ProductsList items={items} />
         </div>
       </div>
     </>
