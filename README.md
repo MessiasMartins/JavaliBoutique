@@ -1,4 +1,6 @@
-![Audere](/public/static/images/audere23.png) ![Javali](/public/static/images/JAVALI-LOGO.png)
+![Audere](/public/static/images/audere23.png)
+
+![Javali](/public/static/images/JAVALI-LOGO.png)
 
 # Javali Boutique Home Page + Blog
 
@@ -6,7 +8,7 @@ Projeto desenvolvido para o Javali Boutique, unindo Home Page + Possiblilidade d
 
 ## Tailwind + Nextjs Blog
 
-Facing issues? Check the [FAQ page](https://github.com/timlrx/tailwind-nextjs-starter-blog/wiki) and do a search on past issues. Feel free to open a new issue if none has been posted previously.
+Referências: [FAQ page](https://github.com/timlrx/tailwind-nextjs-starter-blog/wiki).
 
 ## Features
 
@@ -124,16 +126,6 @@ layout: PostLayout
 Run `node ./scripts/compose.js` to bootstrap a new post.
 
 Follow the interactive prompt to generate a post with pre-filled front matter.
-
-## Deploy
-
-**Vercel**  
-The easiest way to deploy the template is to use the [Vercel Platform](https://vercel.com) from the creators of Next.js. Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-**Netlify / Github Pages / Firebase etc.**  
-As the template uses `next/image` for image optimization, additional configurations has to be made to deploy on other popular static hosting websites like [Netlify](https://www.netlify.com/) or [Github Pages](https://pages.github.com/). An alternative image optimization provider such as Imgix, Cloudinary or Akamai has to be used. Alternatively, replace the `next/image` component with a standard `<img>` tag. See [`next/image` documentation](https://nextjs.org/docs/basic-features/image-optimization) for more details.
-
-The API routes used in the newsletter component cannot be used in a static site export. You will need to use a form API endpoint provider and substitute the route in the newsletter component accordingly. Other hosting platforms such as Netlify also offer alternative solutions - please refer to their docs for more information.
 
 ## Licence
 
