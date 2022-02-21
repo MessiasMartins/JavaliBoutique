@@ -1,12 +1,12 @@
-import Link from '@/components/Link'
+//import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
-import Tag from '@/components/Tag'
+//import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
-import formatDate from '@/lib/utils/formatDate'
-import features from '@/components/Features'
-import Image from 'next/dist/client/image'
-import NewsletterForm from '@/components/NewsletterForm'
+//import formatDate from '@/lib/utils/formatDate'
+//import features from '@/components/Features'
+//import Image from 'next/dist/client/image'
+//import NewsletterForm from '@/components/NewsletterForm'
 import MovieRow from '../components/MovieRow'
 
 const MAX_DISPLAY = 5

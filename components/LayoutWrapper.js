@@ -17,7 +17,7 @@ const LayoutWrapper = ({ children }) => {
               <div className="flex items-center justify-between">
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="h-6 text-2xl font-semibold sm:block my-auto">
-                    <img alt src="/static/images/JAVALI-LOGO2.png"></img>
+                    <img alt src="/static/images/JAVALI-LOGO.png"></img>
                   </div>
                 ) : (
                   siteMetadata.headerTitle
