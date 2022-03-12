@@ -6,7 +6,7 @@ import { ChevronLeftIcon } from '@heroicons/react/solid'
 //import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 //import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
-export default function MovieRow(title, button, index) {
+export default function MovieRow({ title, button, index }) {
   const [scrollX, setScrollX] = useState(0)
   let avanco = 500
   //Configurando as setas para rolar os filmes na lista
