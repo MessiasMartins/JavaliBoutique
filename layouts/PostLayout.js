@@ -68,7 +68,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       <dl className="text-sm font-medium leading-5 whitespace-nowrap">
                         <dt className="sr-only">Nome</dt>
                         <dd className="text-gray-900 dark:text-gray-100">{author.name}</dd>
-                        <dt className="sr-only">Twitter</dt>
+                        <dt className="sr-only">twitter</dt>
                         <dd>
                           {author.twitter && (
                             <Link
@@ -89,7 +89,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">{children}</div>
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 <Link href={discussUrl(slug)} rel="nofollow">
-                  {'Discuss on Twitter'}
+                  {'Discuss on twitter'}
                 </Link>
               </div>
               <Comments frontMatter={frontMatter} />
