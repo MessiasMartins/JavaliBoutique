@@ -20,12 +20,6 @@ export default function MovieRow({ title, button, index }) {
   const handleRightArrow = () => {
     let x = scrollX - Math.round(window.innerWidth / 2)
     let listW = productsData.length * 380
-    if (window.innerWidth < 1200) {
-      listW = productsData.length * 380
-    }
-    if (window.innerWidth < 500) {
-      listW = productsData.length * 380
-    }
     if (window.innerWidth - listW > x) {
       x = window.innerWidth - listW - 60
     }
