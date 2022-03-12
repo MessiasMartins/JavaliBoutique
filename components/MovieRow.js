@@ -6,7 +6,7 @@ import { ChevronLeftIcon } from '@heroicons/react/solid'
 //import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 //import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
-export default function MovieRow({ title, buttonRole, index }) {
+export default function MovieRow({ title, buttonRole }) {
   const [scrollX, setScrollX] = useState(0)
   let avanco = 500
   //Configurando as setas para rolar os filmes na lista
@@ -43,7 +43,7 @@ export default function MovieRow({ title, buttonRole, index }) {
           }}
         >
           {productsData.map((produto) => (
-            <div className="inline-block " key={index}>
+            <div className="inline-block " key={produto.id}>
               <Card
                 key={produto.title}
                 title={produto.title}
