@@ -1,5 +1,6 @@
 const productsData = [
   {
+    id: 1,
     title: 'Asinha Recheada',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
@@ -9,6 +10,7 @@ const productsData = [
     href: '/construction',
   },
   {
+    id: 2,
     title: 'Kit de Churrasco 6 Pessoas',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
@@ -18,6 +20,7 @@ const productsData = [
     href: '/construction',
   },
   {
+    id: 3,
     title: 'Kit de Churrasco 20 pessoas',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
@@ -27,6 +30,7 @@ const productsData = [
     href: '/construction',
   },
   {
+    id: 4,
     title: 'Asinha Recheada 2',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
@@ -36,6 +40,7 @@ const productsData = [
     href: '/construction',
   },
   {
+    id: 5,
     title: 'Kit de Churrasco 6 Pessoas 2',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
@@ -45,6 +50,7 @@ const productsData = [
     href: '/construction',
   },
   {
+    id: 6,
     title: 'Kit de Churrasco 20 pessoas 2',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
@@ -54,6 +60,7 @@ const productsData = [
     href: '/construction',
   },
   {
+    id: 7,
     title: 'Asinha Recheada 3',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
@@ -63,6 +70,7 @@ const productsData = [
     href: '/construction',
   },
   {
+    id: 8,
     title: 'Kit de Churrasco 6 Pessoas 3',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
@@ -72,6 +80,7 @@ const productsData = [
     href: '/construction',
   },
   {
+    id: 9,
     title: 'Kit de Churrasco 20 pessoas 3',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
@@ -79,8 +88,7 @@ const productsData = [
     imgSrc: '/static/images/kit20pessoas1.png',
     //href: '/blog/paraju',
     href: '/construction',
-  },  
-  
+  },
 ]
 
 export default productsData

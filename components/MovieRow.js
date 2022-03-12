@@ -6,7 +6,7 @@ import { ChevronLeftIcon } from '@heroicons/react/solid'
 //import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 //import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
-export default function MovieRow(title, button, index) {
+export default function MovieRow({ title, buttonRole }) {
   const [scrollX, setScrollX] = useState(0)
   let avanco = 500
   //Configurando as setas para rolar os filmes na lista
@@ -20,24 +20,18 @@ export default function MovieRow(title, button, index) {
   const handleRightArrow = () => {
     let x = scrollX - Math.round(window.innerWidth / 2)
     let listW = productsData.length * 380
-    if (window.innerWidth < 1200) {
-      listW = productsData.length * 380
-    }
-    if (window.innerWidth < 500) {
-      listW = productsData.length * 380
-    }
     if (window.innerWidth - listW > x) {
       x = window.innerWidth - listW - 60
     }
     setScrollX(x)
   }
   return (
-    <div className="movieRow" aria-hidden="true" role={button}>
-      <h2>{title}</h2>
-      <div className="seta-esquerda" onClick={handleLeftArrow} aria-hidden="true" role={button}>
+    <div className="movieRow" aria-hidden="true" role={buttonRole}>
+      {title && <h2>{title}</h2>}
+      <div className="seta-esquerda" onClick={handleLeftArrow} aria-hidden="true" role={buttonRole}>
         <ChevronLeftIcon className="h-24 w-24 text-gray-400" />
       </div>
-      <div className="seta-direita" onClick={handleRightArrow} aria-hidden="true" role={button}>
+      <div className="seta-direita" onClick={handleRightArrow} aria-hidden="true" role={buttonRole}>
         <ChevronRightIcon className="h-24 w-24 text-gray-400" />
       </div>
       <div className="overflow-x-hidden md:pl-20">
@@ -49,7 +43,7 @@ export default function MovieRow(title, button, index) {
           }}
         >
           {productsData.map((produto) => (
-            <div className="inline-block " key={index}>
+            <div className="inline-block " key={produto.id}>
               <Card
                 key={produto.title}
                 title={produto.title}
